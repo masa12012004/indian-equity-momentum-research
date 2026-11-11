@@ -1,0 +1,32 @@
+# Credentials and broker session state
+.env
+.env.*
+!.env.example
+*session*.json
+*token*.json
+*credentials*.json
+*.pem
+*.key
+# Runtime environments
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+# Market data and generated phase artifacts
+/data/
+/data_clean/
+strategy/phase*/
+strategy02/phase*/
+*.csv
+*.parquet
+*.xlsx
+*.pkl
+*.pickle
+*.joblib
+*.pt
+*.pth
+*.log
+*.pdf
+*.docx
+*.pptx

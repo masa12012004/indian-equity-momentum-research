@@ -1,0 +1,15 @@
+# Direct dependencies inferred from source; not a validated version lock.
+numpy
+pandas>=2.0
+scipy
+matplotlib
+scikit-learn
+lightgbm
+xgboost
+optuna
+torch
+pyarrow
+requests
+urllib3
+python-dotenv
+tzdata
